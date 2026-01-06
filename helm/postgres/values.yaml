@@ -19,7 +19,6 @@ environmentVariables:
   POSTGRES_USER: admin
   POSTGRES_PASSWORD: admin
   POSTGRES_DB: postgres
-  PGDATA: /var/lib/postgresql/data/dbdata
 
 
 serviceAccount:
@@ -31,12 +30,11 @@ serviceAccount:
 
 podAnnotations: {}
 
-podSecurityContext: {}
-  # fsGroup: 2000
+podSecurityContext:
+  fsGroup: 0
 
 securityContext:
   runAsUser: 0
-  fsGroup: 0
   # capabilities:
   #   drop:
   #   - ALL
