@@ -1,15 +1,17 @@
 apiVersion: v2
 name: postgres
 description: Postgres helm chart for Kubernetes
-home: https://github.com/hansehe/postgres-helm
-icon: https://raw.githubusercontent.com/hansehe/postgres-helm/master/helm/postgres.png
+home: https://github.com/rbg/postgres-helm
+icon: https://raw.githubusercontent.com/rbg/postgres-helm/master/helm/postgres.png
 keywords:
 - postgres
 maintainers:
+- email: rbg@openrbg.com
+  name: rbg
 - email: hans.erik.heggem@gmail.com
   name: hansehe
 sources:
-- https://github.com/hansehe/postgres-helm
+- https://github.com/rbg/postgres-helm
 
 # A chart can be either an 'application' or a 'library' chart.
 #
@@ -23,7 +25,7 @@ type: application
 
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
-version: 0.1.0
+version: 0.1.1
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application.
