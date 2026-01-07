@@ -1,3 +1,25 @@
 apiVersion: v1
-entries: {}
-generated: "2026-01-06T00:00:00Z"
+entries:
+  postgres:
+  - apiVersion: v2
+    appVersion: "13.12"
+    created: "2026-01-07T01:19:00.469652564Z"
+    description: Postgres helm chart for Kubernetes
+    digest: 0aa5ab8a7d764d4422b850aa56ee7027b90cc3ce1bcc1b245a195e2d2aaa6fac
+    home: https://github.com/rbg/postgres-helm
+    icon: https://raw.githubusercontent.com/rbg/postgres-helm/master/helm/postgres.png
+    keywords:
+    - postgres
+    maintainers:
+    - email: rbg@openrbg.com
+      name: rbg
+    - email: hans.erik.heggem@gmail.com
+      name: hansehe
+    name: postgres
+    sources:
+    - https://github.com/rbg/postgres-helm
+    type: application
+    urls:
+    - https://github.com/rbg/postgres-helm/releases/download/postgres-0.1.1/postgres-0.1.1.tgz
+    version: 0.1.1
+generated: "2026-01-07T01:19:00.469658826Z"
