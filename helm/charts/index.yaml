@@ -1,72 +1,11 @@
 apiVersion: v1
 entries:
-  pgbouncer:
-  - apiVersion: v2
-    appVersion: latest
-    created: "2026-01-06T17:26:07.968743-06:00"
-    description: Pgbouncer helm chart for Kubernetes
-    digest: a29afa6f2acfaa595b0d61f3adc795ce5e91ed132b07b2c4478f942a4146d9d9
-    home: https://github.com/hansehe/postgres-helm
-    icon: https://raw.githubusercontent.com/hansehe/postgres-helm/master/helm/postgres.png
-    keywords:
-    - postgres
-    - pgbouncer
-    maintainers:
-    - email: hans.erik.heggem@gmail.com
-      name: hansehe
-    name: pgbouncer
-    sources:
-    - https://github.com/hansehe/postgres-helm
-    type: application
-    urls:
-    - pgbouncer-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: latest
-    created: "2026-01-06T17:26:07.970563-06:00"
-    description: Pgbouncer helm chart for Kubernetes
-    digest: 309550928c8d090e9094f5ad569f4b2c5b7d67ca141054166ef69d5276cab42b
-    home: https://github.com/hansehe/postgres-helm
-    icon: https://raw.githubusercontent.com/hansehe/postgres-helm/master/helm/postgres.png
-    keywords:
-    - postgres
-    - pgbouncer
-    maintainers:
-    - email: hans.erik.heggem@gmail.com
-      name: hansehe
-    name: pgbouncer
-    sources:
-    - https://github.com/hansehe/postgres-helm
-    type: application
-    urls:
-    - pgbouncer/pgbouncer-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: latest
-    created: "2026-01-06T17:26:07.970202-06:00"
-    description: Pgbouncer helm chart for Kubernetes
-    digest: 6dd08b1dbcfbe40adac1d77a5815d6b0d699028c48367d1a1548ae532f29b1f4
-    home: https://github.com/hansehe/postgres-helm
-    icon: https://raw.githubusercontent.com/hansehe/postgres-helm/master/helm/postgres.png
-    keywords:
-    - postgres
-    - pgbouncer
-    maintainers:
-    - email: hans.erik.heggem@gmail.com
-      name: hansehe
-    name: pgbouncer
-    sources:
-    - https://github.com/hansehe/postgres-helm
-    type: application
-    urls:
-    - pgbouncer/pgbouncer-0.1.0.tgz
-    version: 0.1.0
   postgres:
   - apiVersion: v2
     appVersion: "13.12"
-    created: "2026-01-06T17:26:07.969677-06:00"
+    created: "2026-01-06T18:45:52.554038-06:00"
     description: Postgres helm chart for Kubernetes
-    digest: f247a5b7f4c9e4ff337543d15e93c47901df4ddabd36aaab572e2c6e069feacc
+    digest: 7d690b1aaa654ba27f6ae58669f40a95e7f6a92231365e87d2daa7354690333e
     home: https://github.com/rbg/postgres-helm
     icon: https://raw.githubusercontent.com/rbg/postgres-helm/master/helm/postgres.png
     keywords:
@@ -83,42 +22,4 @@ entries:
     urls:
     - postgres-0.1.1.tgz
     version: 0.1.1
-  - apiVersion: v2
-    appVersion: "13.12"
-    created: "2026-01-06T17:26:07.968967-06:00"
-    description: Postgres helm chart for Kubernetes
-    digest: dab26d55a391a18ed04c04950e3b40ab0228ddc8f419a001e15bdc04bf898584
-    home: https://github.com/hansehe/postgres-helm
-    icon: https://raw.githubusercontent.com/hansehe/postgres-helm/master/helm/postgres.png
-    keywords:
-    - postgres
-    maintainers:
-    - email: hans.erik.heggem@gmail.com
-      name: hansehe
-    name: postgres
-    sources:
-    - https://github.com/hansehe/postgres-helm
-    type: application
-    urls:
-    - postgres-0.1.0.tgz
-    version: 0.1.0
-  - apiVersion: v2
-    appVersion: "13.12"
-    created: "2026-01-06T17:26:07.970967-06:00"
-    description: Postgres helm chart for Kubernetes
-    digest: c7aae4b1141fbe6aa9ee8925d52855952aa8625f165d3b12cf19d2ad3a6cd9c9
-    home: https://github.com/hansehe/postgres-helm
-    icon: https://raw.githubusercontent.com/hansehe/postgres-helm/master/helm/postgres.png
-    keywords:
-    - postgres
-    maintainers:
-    - email: hans.erik.heggem@gmail.com
-      name: hansehe
-    name: postgres
-    sources:
-    - https://github.com/hansehe/postgres-helm
-    type: application
-    urls:
-    - postgres/postgres-0.1.0.tgz
-    version: 0.1.0
-generated: "2026-01-06T17:26:07.968194-06:00"
+generated: "2026-01-06T18:45:52.553647-06:00"

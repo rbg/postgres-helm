@@ -17,8 +17,8 @@ Access pgadmin at (username/password: admin@admin.no/admin):
 
 ## Use Helm Repo
 ```bash
-helm repo add postgres https://raw.githubusercontent.com/hansehe/postgres-helm/master/helm/charts/postgres
-helm repo add pgbouncer https://raw.githubusercontent.com/hansehe/postgres-helm/master/helm/charts/pgbouncer
+helm repo add postgres https://raw.githubusercontent.com/rbg/postgres-helm/master/helm/charts/postgres
+helm repo add pgbouncer https://raw.githubusercontent.com/rbg/postgres-helm/master/helm/charts/pgbouncer
 helm repo update
 ```
 ```bash
