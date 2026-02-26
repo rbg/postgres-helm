@@ -17,6 +17,9 @@ spec:
       targetPort: postgres
       protocol: TCP
       name: postgres
+      {{- if and (eq .Values.service.type "NodePort") .Values.service.nodePort }}
+      nodePort: {{ .Values.service.nodePort }}
+      {{- end }}
   selector:
     {{- include "postgres.selectorLabels" . | nindent 4 }}
 {{- end }}
